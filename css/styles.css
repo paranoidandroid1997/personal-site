@@ -1,0 +1,76 @@
+.main-container {
+    display: grid;
+    grid-template-rows: 3fr 25fr 1fr; /* Header, content (stuff), footer */
+    grid-template-columns: 1fr 6fr 1fr; /* Left, middle, right */
+    grid-template-areas: 
+        "header header header"
+        "left middle right"
+        "footer footer footer";
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 0;
+
+    /*background-color: #f2f2f2;*/
+    background: rgba(23, 114, 156, 0.433) url("../images/face-wave.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay; /* Blend color and image */
+}
+
+.header {
+    grid-area: header;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+
+
+}
+
+
+.left {
+    grid-area: left;
+}
+
+.middle {
+    grid-area: middle;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    gap: 25px;
+}
+
+.stuff-card {
+    background-color: rgb(72, 205, 242);
+    width: 100%;
+    outline: thick double black;
+}
+
+.content{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.right {
+    grid-area: right;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.name-card{
+      font-size: 42px;
+}
+
+.short-desc{
+    font-size: 20px;
+}
+
