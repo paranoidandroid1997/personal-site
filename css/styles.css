@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-blend-mode: overlay; /* Blend color and image */
 }
 
@@ -25,8 +26,7 @@
     align-items: center;
     height: 100%;
     flex-direction: column;
-
-
+    padding: px;
 }
 
 
