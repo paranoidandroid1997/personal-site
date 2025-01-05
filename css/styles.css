@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
-    grid-template-rows: 6fr 25fr 1fr; /* Header, content (stuff), footer */
-    grid-template-columns: 1fr 6fr 1fr; /* Left, middle, right */
+    grid-template-rows: 2.5fr 7fr 0.5fr; /* Header, content (stuff), footer */
+    grid-template-columns: 1fr 8fr 1fr; /* Left, middle, right */
     grid-template-areas: 
         "header header header"
         "left middle right"
@@ -10,7 +10,6 @@
     max-height: 100vh;
     min-width: 100vw;
     max-width: 100vw;
-    padding: 0;
 
     /*background-color: #f2f2f2;*/
     background: rgba(23, 114, 156, 0.333) url("../images/face-wave.jpeg");
@@ -76,4 +75,3 @@
     outline: thick double black;
     padding: 5px;
 }
-
