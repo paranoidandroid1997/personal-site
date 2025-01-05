@@ -43,7 +43,7 @@
     align-items: flex-start;
     padding: 20px;
     gap: 25px;
-    outline: 5px dashed black;
+    border: 5px dashed black;
 }
 
 .stuff-card {
@@ -70,8 +70,8 @@
     font-size: 20px;
 }
 
-.blue-outline-box {
+.blue-border-box {
     background-color: rgb(72, 205, 242);
-    outline: thick double black;
+    border: thick double black;
     padding: 5px;
 }
