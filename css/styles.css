@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     grid-template-rows: 2.5fr 7fr 0.5fr; /* Header, content (stuff), footer */
-    grid-template-columns: 1.5fr 6fr 1.5fr; /* Left, middle, right */
+    grid-template-columns: 1fr 8fr 1fr; /* Left, middle, right */
     grid-template-areas: 
         "header header header"
         "left middle right"
